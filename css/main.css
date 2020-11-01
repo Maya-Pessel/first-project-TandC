@@ -1,0 +1,146 @@
+/* DESIGN GENERIQUE */
+
+*{
+    margin: 0px;
+    padding: 0px;
+	font-family: 'Codystar', cursive;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* DESIGN TYPOGRAPHIQUE */
+h1, h2, p, a, li{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+/* HEADER */
+
+header{
+    background-color: rgb(27, 29, 43);
+    opacity: 0.85;
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    margin-right: 50px;
+}
+
+.a-header{
+    color: white;
+    font-family: 'Codystar', cursive;
+    letter-spacing: 5px;
+}
+
+/* Section n°1 */
+
+#section1{
+
+    background-repeat: no-repeat;
+    height: 90vh;
+    background-image: url(../images/GSteam.jpeg);
+}
+
+#section1 h1{
+    font-family: 'Codystar', cursive;
+    text-align: center;
+    padding-top: 200px;
+    letter-spacing: 1.4em;
+}
+
+/* Section n°2 */
+
+#section2{
+  
+    background-repeat: no-repeat;
+    height: 80vh;
+    background-image: url(../images/GSteam2.jpg)
+}
+
+#section2 p{
+    text-align: center;
+}
+
+.titre{
+    text-align: center;
+    font-family: 'Codystar', cursive;
+    letter-spacing: 1.4em;
+}
+
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 100px;
+}
+
+#section2 img:hover
+{
+    transform: scale(1.10);
+    transition: all 0.2s;
+}
+
+/* Section n°3 */
+
+#section3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    padding-left: 16%;
+    background-image: url(../images/GSteam3.jpeg);
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+}
+
+.constellation{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-top: 100px;
+}
+
+.text1, .text2, .text3{
+    display: flex;
+    width: 50%;
+}
+
+.constellation p{
+    visibility: hidden;
+}
+ 
+.constellation img:hover + p{
+    visibility: visible;
+}
+
+/* FOOTER */
+
+footer{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(27, 29, 43);
+    opacity: 0.50;
+    width: 100%;
+    height: 7vh;
+}
+
+.a-footer{
+    color: white;
+    font-family: 'Codystar', cursive;
+    padding-top: 13px;
+}
