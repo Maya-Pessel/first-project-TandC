@@ -11,6 +11,7 @@ html{
 }
 
 /* DESIGN TYPOGRAPHIQUE */
+
 h1, h2, p, a, li{
     list-style: none;
     text-decoration: none;
@@ -37,6 +38,7 @@ ul{
 
 li{
     margin-right: 50px;
+    opacity: 1;
 }
 
 .a-header{
@@ -87,8 +89,7 @@ li{
     padding-top: 100px;
 }
 
-#section2 img:hover
-{
+#section2 img:hover{
     transform: scale(1.10);
     transition: all 0.2s;
 }
@@ -100,8 +101,9 @@ li{
     flex-direction: column;
     justify-content: space-between;
     text-align: left;
-    padding-left: 16%;
+    align-items: center;
     background-image: url(../images/GSteam3.jpeg);
+    background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 50px;
 }
@@ -114,9 +116,10 @@ li{
     padding-top: 100px;
 }
 
-.text1, .text2, .text3{
+.text{
     display: flex;
     width: 50%;
+    line-height: 25px;
 }
 
 .constellation p{
@@ -131,6 +134,7 @@ li{
 
 footer{
     text-align: center;
+    align-items: center;
     display: flex;
     justify-content: space-evenly;
     background-color: rgb(27, 29, 43);
@@ -142,5 +146,5 @@ footer{
 .a-footer{
     color: white;
     font-family: 'Codystar', cursive;
-    padding-top: 13px;
 }
+/* Mes planetes sont bien alignée, les images sont juste de tailles differente.. j'aurais pu changer mais je trouvais sa joli ^^ */
