@@ -124,7 +124,7 @@ li{
 
 .constellation p{
     visibility: hidden;
-}
+} 
  
 .constellation img:hover + p{
     visibility: visible;
